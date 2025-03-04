@@ -1,7 +1,8 @@
 workflows:
-  flutter:
+  flutter_build:
     name: Flutter Build
-    platform: android
+    environment:
+      flutter: stable # ou la version que tu veux
     scripts:
       - name: Install dependencies
         script: |
