@@ -1,0 +1,32 @@
+name: Octopuces
+description: Une nouvelle application Flutter
+publish_to: 'none' # Empêche la publication sur pub.dev, car il s'agit d'un projet local
+version: 1.0.0+1
+
+# Environment
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Ajoute ici d'autres dépendances si nécessaire, par exemple :
+  # http: ^0.13.0
+  # firebase_core: ^1.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  # Le répertoire des assets (images, fichiers, etc.) que tu veux utiliser
+  assets:
+    - images/
+
+  # Le répertoire des polices que tu veux utiliser
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/CustomFont-Regular.ttf
